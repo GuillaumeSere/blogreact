@@ -1,14 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
   
   html {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-color: white;
     color: #000;
-    min-height: 100vh;
   }
   
   body {
@@ -29,6 +26,7 @@
       padding: 1.5rem;
       margin-bottom: 0.5rem;
       font: inherit;
+      color: white;
   }
   
   header {
@@ -52,20 +50,26 @@
     list-style-type: none;
     margin-right: 3rem;
   }
+
+  li{
+    margin-bottom: 1rem;
+  }
   
   nav ul li {
     display: inline-block;
     margin-right: 2rem;
     margin-top: 1rem;
+    color:#7d7d7d;
   }
   
   nav a, nav a:visited {
-    color: #fff;
+    color: rgb(167, 167, 167);
     text-decoration: none;
   }
   
   nav a:hover, nav a:focus {
     text-decoration: underline;
+    color: white;
   }
   
   main {
@@ -78,11 +82,26 @@
   }
 
   .post-list{
+      margin: 0 auto;
+      padding: 2rem  5rem;
       display: flex;
       flex-wrap: wrap;
+      max-width: 500px;
       justify-content: center;
       color:#fff;
       margin-top: 5rem;
+      margin-bottom: 2rem;
+      background: #525252;
+      border: 1px solid white;
+  }
+
+   .post-lists{
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .post-list a{
@@ -99,7 +118,7 @@
     border: 1px solid #000;
     border-radius: 10px;
     padding: 1em;
-    background-color: #fff;
+    background-color: #7d7d7d;
   }
 
   article h2{
@@ -108,11 +127,13 @@
   }
   
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    color:#7d7d7d;
   }
   
   h2 {
     margin-bottom: 1rem;
+    margin-top: 2rem;
     text-align: center;
     color: #fff;
   }

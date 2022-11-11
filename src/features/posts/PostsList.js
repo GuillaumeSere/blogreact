@@ -19,7 +19,7 @@ const PostsList = () => {
     }
 
     return (
-        <section className="post-list">
+        <section className="post-lists">
             {content}
         </section>
     )
