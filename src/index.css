@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: white;
+    color: #000;
+    min-height: 100vh;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background-color: rgb(36, 34, 34);
+  }
+  
+  input,
+  textarea,
+  select {
+    font: inherit;
+    margin-bottom: 1em;
+    padding: 1rem;
+  }
+
+  button{
+      padding: 1.5rem;
+      margin-bottom: 0.5rem;
+      font: inherit;
+  }
+  
+  header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-right: 3rem;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+  
+  nav a, nav a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover, nav a:focus {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section {
+    margin-top: 1em;
+  }
+
+  .post-list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      color:#fff;
+      margin-top: 5rem;
+  }
+
+  .post-list a{
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  article {
+    width: 800px;
+    min-height: 200px;  
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #fff;
+  }
+
+  article h2{
+      text-align: left;
+      color:#000;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+  }
+
+  label{
+      color: white;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  .postCredit {
+    font-size: 1rem;
+  }
+  
+  .postCredit a, 
+  .postCredit a:visited {
+    margin-right: 0.5rem;
+    color: black;
+  }
+  
+  .postCredit a:hover, 
+  .postCredit a:focus {
+    color: hsla(0, 0%, 0%, 0.75);
+  }
+  
+  .excerpt {
+    font-style: italic;
+  }
+  
+  .reactionButton {
+    margin: 0 0.25em 0 0;
+    background: transparent;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .deleteButton {
+    background-color: palevioletred;
+    color: white;
+  }
