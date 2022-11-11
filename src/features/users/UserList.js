@@ -11,8 +11,8 @@ const UserList = () => {
     const renderedUsers = users.map(user => (
         <li key={user.id}>
             <Link to={`/user/${user.id}`}>{user.name}</Link> <br />
-           Ville :  <span>{user.address.city}</span> <br />
-           Email :  <span>{user.email}</span>
+          <strong>Ville :</strong> <span>{user.address.city}</span> <br />
+          <strong>Email :</strong>   <span>{user.email}</span>
         </li>
     ))
 
